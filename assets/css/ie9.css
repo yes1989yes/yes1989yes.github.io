@@ -1,35 +1,33 @@
 /*
-	Dimension by HTML5 UP
+	Landed by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* BG */
+/* Loader */
 
-	#bg:before {
-		background: rgba(19, 21, 25, 0.5);
+	body.landing:before, body.landing:after {
+		display: none !important;
 	}
 
-/* Header */
+/* Icon */
 
-	#header .logo {
-		margin: 0 auto;
+	.icon.alt {
+		color: inherit !important;
 	}
 
-	#header .content {
-		display: inline-block;
+	.icon.major.alt:before {
+		color: #ffffff !important;
 	}
 
-	#header nav ul {
-		display: inline-block;
+/* Banner */
+
+	#banner:after {
+		background-color: rgba(23, 24, 32, 0.95);
 	}
 
-		#header nav ul li {
-			display: inline-block;
-		}
+/* Footer */
 
-/* Main */
-
-	#main article {
-		margin: 0 auto;
+	#footer .icons .icon.alt:before {
+		color: #ffffff !important;
 	}
