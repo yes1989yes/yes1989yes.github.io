@@ -20,26 +20,104 @@
     color:#000000;
     text-decoration:none;
     }
-.city {
+
+    .top{
+    width:100%;
+    height:70px;
+    background:white;
+    position:absolute;
+    top:0;
+    left:6%;
+    margin:70;
+    color:black;
+    z-index: 1;
+}
+
+    .text{
+    background:white;
+    position:absolute;
+    top:500;
+    left:10%;
+    width:80%;
+    margin:0;
+    color:black;
+    z-index: 1;
+}
+
+.back{
+    width:50px;
+    height: 50px;
+    background:rgba(221, 224, 11, 0.562);
+    position:fixed;
+    top:85%;
+    left:92%;
+    margin:0;
+    color:black;
+    z-index: 1;
+}
+
+    .city1 {
 float: left;
-margin: 1px;
-padding: 1px;
-width: 201px;
+margin-left: 10%;
+margin-right: 1.5%;
+padding: 0%;
+width: 17%;
 height: 1px;
 border: 1px solid #ffffff;
+position: absolute;
+top: 70px;
+left:2%;
 } 
+.city2 {
+float: left;
+margin-left: 1.5%;
+margin-right: 1.5%;
+padding: 0%;
+width: 17%;
+height: 1px;
+border: 1px solid #ffffff;
+position: absolute;
+top: 70px;
+left:30.5%;
+} 
+.city3 {
+float: left;
+margin-left: 1.5%;
+margin-right: 1.5%;
+padding: 0%;
+width: 17%;
+height: 1px;
+border: 1px solid #ffffff;
+position: absolute;
+top: 70px;
+left:50.5%;
+} 
+.city4 {
+float: left;
+margin-left: 1.5%;
+margin-right: 10%;
+padding: 0%;
+width: 17%;
+height: 1px;
+border: 1px solid #ffffff;
+position: absolute;
+top: 70px;
+left:70.5%;
+} 
+
 </style>
 </head>
 
 <body>
 <body bgcolor="#FFFFFF">
-<h1 style="margin:16px">得朋  www.depeng.de</h1>
-
+<div class="top">
+    <h1 style="margin:16px"><a name="home">得朋  www.depeng.de</a></h1>
+</div>
 <!-- 下列部分为索引 -->
 <!-- 下列部分为索引 -->
 <!-- 下列部分为索引 -->
 
-<div class="city">
+<div class="city1">
 <h2 style="margin:16px;text-align:center;font-size:50px"><a href="#1">术<a></h2>
 <h3 style="margin:2px;background-color:#FFA07A"><a href="#11">（1.1）学术理论<a></h3>         
 <h3 style="margin:2px;background-color:#FFA07A"><a href="#12">（1.2）编程语言<a></h3>                             
@@ -63,19 +141,19 @@ border: 1px solid #ffffff;
 <h5 style="margin:2px">--<a href="#154">（1.5.4）雅思应试<a></h5> 
 </div>
 
-<div class="city">
+<div class="city2">
 <h2 style="margin:16px;text-align:center;font-size:50px"><a href="#2">体<a></h2>
 <h3 style="margin:2px;background-color:#66FF33"><a href="#21">（2.1）睡眠<a></h3>  
 <h3 style="margin:2px;background-color:#66FF33"><a href="#22">（2.2）锻炼<a></h3>  
 </div>
 
-<div class="city">
+<div class="city3">
 <h2 style="margin:16px;text-align:center;font-size:50px"><a href="#3">道<a></h2>
 <h3 style="margin:2px;background-color:#99CCFF"><a href="#31">（3.1）生活感悟<a></h3>  
 <h3 style="margin:2px;background-color:#99CCFF"><a href="#32">（3.2）学习经验<a></h3>  
 </div>
 
-<div class="city">
+<div class="city4">
 <h2 style="margin:16px;text-align:center;font-size:50px"><a href="#4">趣<a></h2>
 <h3 style="margin:2px;background-color:#FFCC66"><a href="#41">（4.1）摄影<a></h3>  
 <h3 style="margin:2px;background-color:#FFCC66"><a href="#42">（4.2）生活琐事<a></h3> 
@@ -87,7 +165,7 @@ border: 1px solid #ffffff;
 <!-- 下列部分为正文**************************************************************************************** -->
 <!-- 下列部分为正文**************************************************************************************** -->
 <!-- 下列部分为正文**************************************************************************************** -->
-
+<div class="text">
 <p><!--1-->
 <h2 style="text-align:center;font-size:50px"><a name="1">术<a></h2>
 <h3 style="margin:2px;background-color:#FFA07A"><a name="11">（1.1）学术理论<a></h3>         
@@ -141,6 +219,9 @@ border: 1px solid #ffffff;
 <h3 style="margin:2px;background-color:#FFCC66"><a name="42">（4.2）生活琐事<a></h3> 
 <p>
 <hr />
+排版了一下，让网页内容居中显示。顾不上吃饭，现在找点东西吃去。2018年04月28日13:12:44<br/>
+<hr />
+<hr />
 折腾了很久html5的响应式页面，做网页原来这么炫这么有趣。折腾了很久，但是觉得工作量太大，需要对于不同的浏览器适配，一口吃不下个胖子，于是又把网页复原成原来的样子。2018年4月28日 09:11:18<br/>
 <hr />
 <hr />
@@ -156,6 +237,13 @@ Hello world !<br/>
 
 
 </p><!--1-->
+</div>
+
+
+<div class="back">
+    <a href="#home">回到<br/>目录<a>
+</div>
+
 <script type="text/javascript" src="//js.users.51.la/19467913.js"></script>
 </body>
 </html>
